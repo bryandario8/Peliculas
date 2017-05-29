@@ -1,0 +1,96 @@
+*{
+	font-family: 'Verdana',sans-serif;    /* 7 */
+}
+
+h1{    /* 1 */
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	color:  #414239;
+}
+
+h2{   /* 2 */
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+	color:  #9e0947;
+	display: block;
+	margin: 5px;
+}
+
+h3, h4{     /* 6 */
+	font-size: 1em;
+	color: #d7d8cb;
+}
+
+#caja{
+	border: 1px dotted #d7d8cb;    /* 4 */
+	margin: 15px;
+}
+
+#texto p{    /* 5 */
+	text-align: justify;
+}
+
+#fig img{
+	width: 100%;
+}
+
+#fig{
+	/*float: left;*/
+	/*display: inline-block;*/
+	width: 15%;  /*150px*/
+}
+
+#texto{
+	/*float: left;*/
+	/*display: inline-block;*/
+	width: 30%;   /*300px*/
+	height: inherit;
+
+}
+
+.la_la_land{
+
+	top: -145px;
+}
+
+.boyhood{
+	top: -84px;
+}
+
+.reparto{
+	/*float: right;*/
+	/*display: inline-block;*/
+	width: 15%;    /*200px*/
+	top: -160px;
+}
+
+.video{
+	width: 30%;
+}
+#texto, #fig, .reparto, .video{
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+	/*top: -10px;*/
+
+}
+
+li[famoso="principal"]{    /* 8a */
+	font-weight: bold;
+} 
+
+li[famoso="secundario"]{   /* 8b */
+	font-style: italic;
+}
+
+li{               /* 8b */
+	list-style-image: url(https://goo.gl/6hPSSH);
+}
+
+iframe{
+	width: 100%;
+}
+
+img:hover{
+	opacity: 0.8;
+}
